@@ -1,0 +1,36 @@
+/* Typography */
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* color components */
+::root {
+  --footer-background: #16242f;
+}
+
+/* responsiveness */
+
+/* small only */
+
+@media screen and (max-width: 39.9375em) {
+
+}
+
+/* medium and up */
+
+@media screen and (min-width: 40em) {
+
+}
+
+/* medium only */
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+}
+
+/* large screens and up */
+
+@media screen and (min-width: 64em) {
+
+}
