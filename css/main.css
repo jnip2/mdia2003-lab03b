@@ -6,6 +6,12 @@
 
 /* color components */
 ::root {
+  --primary-font-color: #3b3b3b;
+  --secondary-font-color: #1eafde;
+  --subtitle-font-color: #ebebeb;
+
+  --desktop-hero-image-background: #ebebeb;
+
   --footer-background: #16242f;
 }
 
