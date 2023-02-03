@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <title>Metrolics</title>
-    <meta name="description" content="MDIA 2003 | Project 1 | Responsive HTML" />
+    <meta
+      name="description"
+      content="MDIA 2003 | Project 1 | Responsive HTML"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="og:title" content="" />
@@ -28,7 +31,7 @@
     <meta name="theme-color" content="#fafafa" />
   </head>
 
-  <body>
+  <body class="page homepage">
     <header class="page__header">
       <div class="row m-col-2">
         <div class="col">
@@ -37,10 +40,10 @@
       </div>
     </header>
 
-    <section class="page__banner s-hide">
+    <section class="page__slider s-hide">
       <div class="row">
         <div class="col">
-          <img class="page__banner-image hidden" src="" alt="banner image" />
+          <img class="page__slider-image hidden" src="" alt="banner image" />
         </div>
       </div>
     </section>
@@ -48,47 +51,113 @@
     <section class="page__introduction">
       <div class="row">
         <div class="col">
-          <p class="page__introduction-text">
+          <h1 class="heading page__introduction-text">
             Hey guys! This is the Metrolics theme. It sports a responsive layout
             with a mobile layout.
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="page__things-we-do">
+      <div class="row">
+        <header class="col">
+          <h2 class="heading">Things that we do</h2>
+        </header>
+        <div class="col">
+          <h5 class="subheading">Ask us what we can do for you</h5>
+        </div>
+        <div class="col">
+          <h3 class="heading">Web Solutions</h3>
+          <p class="bodytext">
+            We are a fairly small, flexible design studio that designs for print
+            and web. We work flexibly with clients to fulfil their design needs.
+            Whether you need to create a brand from scratch, including marketing
+            materials and a beautiful and functional website or whether you are
+            looking for a design refresh we are confident you will be pleased
+            with the results.
+          </p>
+        </div>
+        <div class="col">
+          <h3 class="heading">Photography</h3>
+          <p class="bodytext">
+            We are a fairly small, flexible design studio that designs for print
+            and web. We work flexibly with clients to fulfil their design needs.
+            Whether you need to create a brand from scratch, including marketing
+            materials and a beautiful and functional website or whether you are
+            looking for a design refresh we are confident you will be pleased
+            with the results.
+          </p>
+        </div>
+        <div class="col">
+          <h3 class="heading">Web Development</h3>
+          <p class="bodytext">
+            We are a fairly small, flexible design studio that designs for print
+            and web. We work flexibly with clients to fulfil their design needs.
+            Whether you need to create a brand from scratch, including marketing
+            materials and a beautiful and functional website or whether you are
+            looking for a design refresh we are confident you will be pleased
+            with the results.
+          </p>
+        </div>
+        <div class="col">
+          <h3 class="heading">Web Design</h3>
+          <p class="bodytext">
+            We are a fairly small, flexible design studio that designs for print
+            and web. We work flexibly with clients to fulfil their design needs.
+            Whether you need to create a brand from scratch, including marketing
+            materials and a beautiful and functional website or whether you are
+            looking for a design refresh we are confident you will be pleased
+            with the results.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="">
+    <section class="whats-up-lately">
       <div class="row">
         <header class="col">
-          <h2>Things that we can do</h2>
+          <h2 class="heading">What's up lately?</h2>
+          <h5 class="subheading">Read up on our latest work.</h5>
         </header>
         <div class="col">
-          <h3>Web Solutions</h3>
+          <figure class="project">
+            <img
+              class="whats-up-lately-img"
+              src="img/placeholder.svg"
+              alt="placeholder image"
+            />
+            <figcaption class="project-desc">
+              <h3 class="heading">Sample Image Post</h3>
+              <h5 class="subheading">Photography</h5>
+            </figcaption>
+          </figure>
         </div>
         <div class="col">
-          <h3>Photography</h3>
+          <figure class="project">
+            <img
+              class="whats-up-lately-img"
+              src="img/placeholder.svg"
+              alt="placeholder image"
+            />
+            <figcaption class="project-desc">
+              <h3 class="heading">Sample Image Post</h3>
+              <h5 class="subheading">Photography</h5>
+            </figcaption>
+          </figure>
         </div>
         <div class="col">
-          <h3>Web Development</h3>
-        </div>
-        <div class="col">
-          <h3>Web Design</h3>
-        </div>
-      </div>
-    </section>
-
-    <section class="">
-      <div class="row">
-        <header class="col">
-          <h2>What's up lately?</h2>
-        </header>
-        <div class="col">
-          <img src="img/placeholder.svg" alt="placeholder image" />
-        </div>
-        <div class="col">
-          <img src="img/placeholder.svg" alt="placeholder image" />
-        </div>
-        <div class="col">
-          <img src="img/placeholder.svg" alt="placeholder image" />
+          <figure class="project">
+            <img
+              class="whats-up-lately-img"
+              src="img/placeholder.svg"
+              alt="placeholder image"
+            />
+            <figcaption class="project-desc">
+              <h3 class="heading">Sample Image Post</h3>
+              <h5 class="subheading">Photography</h5>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
@@ -96,12 +165,8 @@
     <section class="latest-projects">
       <div class="row col-2 col-3">
         <div class="col col-span">
-          <h2 class="heading">
-            Our Latest Projects
-          </h2>
-          <h5 class="subheading">
-            Client happy? We are happy.
-          </h5>
+          <h2 class="heading">Our Latest Projects</h2>
+          <h5 class="subheading">Client happy? We are happy.</h5>
         </div>
         <div class="col">
           <figure class="project">
@@ -187,12 +252,8 @@
     <section class="thingsofabove hidden">
       <div class="row col-2">
         <div class="col col-span">
-          <h3 class="heading">
-            Thingsofabove
-          </h3>
-          <h5 class="subheading">
-            Misc stuff we could not put anywhere else
-          </h5>
+          <h3 class="heading">Thingsofabove</h3>
+          <h5 class="subheading">Misc stuff we could not put anywhere else</h5>
         </div>
         <div class="col">
           <p>Element here</p>
@@ -206,19 +267,19 @@
     <div class="clients hidden">
       <div class="row col-5">
         <div class="col">
-          <img src="img/placeholder.svg" alt="">
+          <img src="img/placeholder.svg" alt="" />
         </div>
         <div class="col">
-          <img src="img/placeholder.svg" alt="">
+          <img src="img/placeholder.svg" alt="" />
         </div>
         <div class="col">
-          <img src="img/placeholder.svg" alt="">
+          <img src="img/placeholder.svg" alt="" />
         </div>
         <div class="col">
-          <img src="img/placeholder.svg" alt="">
+          <img src="img/placeholder.svg" alt="" />
         </div>
         <div class="col">
-          <img src="img/placeholder.svg" alt="">
+          <img src="img/placeholder.svg" alt="" />
         </div>
       </div>
     </div>
@@ -235,8 +296,7 @@
         <div class="col">
           <h4 class="heading hidden">About Us</h4>
           <p class="desc hidden">Minions ipsum potatoooo potatoooo uuuhhh.</p>
-          <div class="page-footer-icons">
-          </div>
+          <div class="page-footer-icons"></div>
         </div>
         <div class="col hidden">
           <h4 class="heading">Flickr Photos</h4>
