@@ -9,6 +9,25 @@
   --footer-background: #16242f;
 }
 
+/* base */
+
+img {
+  max-width: 100%;
+}
+
+/* layout*/
+
+.heading,
+.subheading{
+  text-align: center;
+}
+
+.row{
+  width: 75vw;
+  max-width: 70rem;
+  margin: auto;
+}
+
 /* responsiveness */
 
 /* small only */
@@ -26,7 +45,7 @@
 /* medium only */
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-
+  
 }
 
 /* large screens and up */
