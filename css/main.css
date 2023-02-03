@@ -27,12 +27,37 @@ img {
   grid-column-end: -1;
 }
 
+/* latest projects */
+
+.project-desc{
+  display: none;
+  background-color: #19b2de;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.5;
+}
+
+.project{
+  position: relative;
+  margin: 0;
+}
+
+.project:hover .project-desc{
+  display: block;
+}
+
 /* responsiveness */
 
 /* small only */
 
 @media screen and (max-width: 39.9375em) {
-
+  .hidden{
+    display: none;
+  }
 }
 
 /* medium and up */
@@ -43,6 +68,8 @@ img {
     width: 75vw;
     max-width: 70rem;
     margin: auto;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
   }
 
   .col-2{
