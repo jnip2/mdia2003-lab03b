@@ -22,10 +22,9 @@ img {
   text-align: center;
 }
 
-.row{
-  width: 75vw;
-  max-width: 70rem;
-  margin: auto;
+.col-span{
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
 /* responsiveness */
@@ -39,7 +38,20 @@ img {
 /* medium and up */
 
 @media screen and (min-width: 40em) {
+  .row{
+    display: grid;
+    width: 75vw;
+    max-width: 70rem;
+    margin: auto;
+  }
 
+  .col-2{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-5{
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 /* medium only */
@@ -51,5 +63,15 @@ img {
 /* large screens and up */
 
 @media screen and (min-width: 64em) {
+  .col-2{
+    grid-template-columns: repeat(2, 1fr);
+  }
 
+  .col-3{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .col-4{
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
