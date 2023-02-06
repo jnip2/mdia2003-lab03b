@@ -85,6 +85,12 @@ img {
   .col-5{
     grid-template-columns: repeat(5, 1fr);
   }
+
+  .alt-grid{
+    display: grid;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+  }
 }
 
 /* medium only */
