@@ -17,6 +17,7 @@
   --green-accent: #25c389;
   --yellow-accent: #ffb901;
   --light-blue-accent: #19b2de;
+  --medium-blue-accent: #1596bd;
   --dark-blue-accent: #527cc4;
   --pink-accent: #f6679c;
   --grey-accent: #5c666f;
@@ -39,8 +40,16 @@ img {
   text-align: center;
 }
 
+.heading-footer{
+  text-align: left;
+}
+
 p{
   font-size: 0.8rem;
+}
+
+.row{
+  padding: 2rem;
 }
 
 .col-span{
@@ -71,6 +80,21 @@ p{
   display: block;
 }
 
+.caption{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 1rem;
+}
+
+.fa-file-o{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  background-color: var(--medium-blue-accent);
+}
+
 /* footer */
 .page-footer{
   background-color: var(--footer-background);
@@ -81,7 +105,7 @@ p{
   background-image: url(../img/colourbar.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .ruler-a,
@@ -220,6 +244,10 @@ input::placeholder {
   .col-5{
     grid-template-columns: repeat(5, 1fr);
   }
+
+  .project{
+    margin: 1rem;
+  }
 }
 
 /* medium and up */
@@ -238,7 +266,7 @@ input::placeholder {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .col-3{
+  .m-col-3{
     grid-template-columns: repeat(3, 1fr);
   }
 
