@@ -182,6 +182,28 @@ p{
 .tweet{
   width: 11rem;
 }
+
+.input{
+  background-color: var(--red-accent);
+  padding: 0.5rem;
+  border: none;
+}
+
+input::placeholder {
+  color: var(--subtitle-font-color)
+}
+
+.button{
+  background-color: var(--yellow-accent);
+  color: var(--subtitle-font-color);
+  border: none;
+  position: absolute;
+}
+
+.fa-paper-plane{
+  padding: 0.5rem;
+}
+
 /* responsiveness */
 
 /* small only */
@@ -189,6 +211,14 @@ p{
 @media screen and (max-width: 39.9375em) {
   .hidden{
     display: none;
+  }
+
+  .col-2{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-5{
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
