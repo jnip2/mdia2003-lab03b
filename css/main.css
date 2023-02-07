@@ -13,6 +13,10 @@
   --desktop-hero-image-background: #ebebeb;
 
   --footer-background: #16242f;
+  --red-accent: #de6262;
+  --green-accent: #25c389;
+  --yellow-accent: #ffb901;
+  --blue-accent: #19b2de;
 }
 
 /* base */
@@ -41,8 +45,8 @@ img {
 
 .project-desc{
   display: none;
-  background-color: #19b2de;
-  color: #ffffff;
+  background-color: var(--blue-accent);
+  color: var(--subtitle-font-color);
   position: absolute;
   left: 0;
   right: 0;
@@ -64,6 +68,61 @@ img {
 .page-footer{
   background-color: var(--footer-background);
   color: var(--subtitle-font-color);
+}
+
+.ruler-a,
+.ruler-b,
+.ruler-c,
+.ruler-d{
+  max-width: 30rem;
+  position: relative;
+}
+
+.ruler-a{
+  border-bottom: 2px solid var(--green-accent);
+}
+
+.ruler-b{
+  border-bottom: 2px solid var(--yellow-accent);
+}
+
+.ruler-c{
+  border-bottom: 2px solid var(--red-accent);
+}
+
+.ruler-d{
+  border-bottom: 2px solid var(--blue-accent);
+}
+
+.ruler-a::after,
+.ruler-b::after,
+.ruler-c::after,
+.ruler-d::after
+{
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 1rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.ruler-a::after{
+  border-top: 8px solid var(--green-accent);
+}
+
+.ruler-b::after{
+  border-top: 8px solid var(--yellow-accent);
+}
+
+.ruler-c::after{
+  border-top: 8px solid var(--red-accent);
+}
+
+.ruler-d::after{
+  border-top: 8px solid var(--blue-accent);
 }
 
 /* responsiveness */
