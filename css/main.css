@@ -40,8 +40,16 @@ img {
   text-align: center;
 }
 
+.heading-footer{
+  text-align: left;
+}
+
 p{
   font-size: 0.8rem;
+}
+
+.row{
+  padding: 2rem;
 }
 
 .col-span{
@@ -97,7 +105,7 @@ p{
   background-image: url(../img/colourbar.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .ruler-a,
@@ -236,6 +244,10 @@ input::placeholder {
   .col-5{
     grid-template-columns: repeat(5, 1fr);
   }
+
+  .project{
+    margin: 1rem;
+  }
 }
 
 /* medium and up */
@@ -254,7 +266,7 @@ input::placeholder {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .col-3{
+  .m-col-3{
     grid-template-columns: repeat(3, 1fr);
   }
 
