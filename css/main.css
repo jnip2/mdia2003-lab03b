@@ -70,6 +70,13 @@ img {
   color: var(--subtitle-font-color);
 }
 
+.page footer .row{
+  background-image: url(../img/colourbar.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 3rem;
+}
+
 .ruler-a,
 .ruler-b,
 .ruler-c,
