@@ -204,6 +204,8 @@ p{
 
 .tweets-container{
   display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 1rem;
 }
 
 .pfp{
@@ -211,10 +213,6 @@ p{
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-}
-
-.tweet{
-  width: 11rem;
 }
 
 .input{
