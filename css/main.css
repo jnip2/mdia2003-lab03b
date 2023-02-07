@@ -108,6 +108,16 @@ p{
   padding-bottom: 5rem;
 }
 
+.page-footer-intro{
+  display: grid;
+  grid-template-columns: 1fr 65vw;
+  column-gap: 1.5rem;
+}
+
+.intro-pfp{
+  margin: auto;
+}
+
 .ruler-a,
 .ruler-b,
 .ruler-c,
