@@ -17,6 +17,7 @@
   --green-accent: #25c389;
   --yellow-accent: #ffb901;
   --light-blue-accent: #19b2de;
+  --medium-blue-accent: #1596bd;
   --dark-blue-accent: #527cc4;
   --pink-accent: #f6679c;
   --grey-accent: #5c666f;
@@ -69,6 +70,21 @@ p{
 
 .project:hover .project-desc{
   display: block;
+}
+
+.caption{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 1rem;
+}
+
+.fa-file-o{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  background-color: var(--medium-blue-accent);
 }
 
 /* footer */
